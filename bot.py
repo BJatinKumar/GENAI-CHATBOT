@@ -3,7 +3,7 @@ import google.generativeai as genai
 from typing import Generator
 st.set_page_config(layout="wide")
 # Configure Gemini API
-GOOGLE_API_KEY = "AIzaSyB0X5N434LVzOg0utH7YiGX4EzClluDOM8"  # Replace with your actual API key
+GOOGLE_API_KEY = ""  # Replace with your actual API key
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # System Prompt (Defines chatbot behavior)
