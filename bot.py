@@ -68,7 +68,7 @@ def format_messages(messages):
 
 # Function to generate chat responses
 def gemini_generator(messages: list) -> Generator:
-    model = genai.GenerativeModel("gemini-pro")
+    model = genai.GenerativeModel("gemini-2.0-flash")
     chat = model.start_chat(history=format_messages(messages))
     
     user_input = messages[-1]["content"]  
